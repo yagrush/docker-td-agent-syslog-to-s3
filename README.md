@@ -8,7 +8,7 @@ container OS is based centos:8 .
 
 Amazon Linux release 2 (Karoo) or later is recommended as docker-host.
 
-and need Docker, Docker-Compose.
+and need Docker, docker-compose.
 
 # How to use
 
