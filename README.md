@@ -21,7 +21,7 @@ and edit as needed.
 ## build image
 
 ```
-docker-compose build --no-cache
+docker-compose build
 ```
 
 ## start container
