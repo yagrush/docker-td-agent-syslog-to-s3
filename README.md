@@ -30,6 +30,12 @@ docker-compose build
 docker-compose up -d
 ```
 
+## how to connect into container's shell
+
+```
+docker container exec -it `docker container ls -alq` /bin/bash
+```
+
 ## test simple stdout
 
 ### in docker-host:
@@ -67,12 +73,6 @@ tail -f /tmp/buffer.*.log
 ### and check your S3-bucket
 
 *notice: It can take up to an hour with default td-agent.conf.*
-
-## connect into container's shell
-
-```
-docker container exec -it `docker container ls -alq` /bin/bash
-```
 
 ## stop container
 
