@@ -2,7 +2,7 @@
 
 docker container for td-agent as service to receive syslog at :514/udp and storing to S3.
 
-container OS is based centos:8 .
+container image is based centos:8 .
 
 # Dependency
 
